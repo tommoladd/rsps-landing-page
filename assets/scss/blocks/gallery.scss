@@ -1,0 +1,19 @@
+section.gallery {
+  margin: 100px 0;
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .gallerySlider {
+    .swiper-slide {
+      width: clamp(300px, 43.75vw, 840px);
+      img {
+        object-fit: cover;
+        width: clamp(300px, 43.75vw, 840px);
+        height: clamp(200px, 26.04vw, 500px);
+        border-radius: 10px;
+      }
+    }
+  }
+}

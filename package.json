@@ -1,0 +1,30 @@
+{
+  "name": "rsps-landing-page",
+  "version": "1.0.0",
+  "description": "a landing page released for free by tommoladd",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch --update --style=expanded assets/scss:assets/css",
+    "prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommoladd/rsps-landing-page.git"
+  },
+  "keywords": [
+    "rsps",
+    "landing",
+    "page",
+    "free",
+    "gpl"
+  ],
+  "author": "TommoLadd",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tommoladd/rsps-landing-page/issues"
+  },
+  "homepage": "https://github.com/tommoladd/rsps-landing-page#readme",
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}

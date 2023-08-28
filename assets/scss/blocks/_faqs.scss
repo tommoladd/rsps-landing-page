@@ -1,0 +1,24 @@
+section.faqs {
+  max-width: 1200px;
+  margin: 150px auto 100px;
+  width: 95vw;
+  h2 {
+    text-align: center;
+  }
+  .accordion {
+    .card {
+      background: rgba(255,255,255,0.05);
+      .card-header {
+        button {
+          color: white;
+          &:hover, &:focus, &:active &.active {
+            text-decoration: none;
+            outline: none;
+            box-shadow: none;
+            color: $linkColourHover;
+          }
+        }
+      }
+    }
+  }
+}

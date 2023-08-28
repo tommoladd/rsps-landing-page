@@ -1,0 +1,14 @@
+.button {
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  color: $linkColour;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: $linkColourHover;
+  }
+}
